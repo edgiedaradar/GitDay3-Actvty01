@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCC Activity01</title>
+</head>
+<body>
+
+    <a id="anchor"></a>
+
+    <!-- Headings -->
+    <br />
+    <br />
+    <h1>I'm Edgie a Web Developer</h1>
+    <br />
+    <br />
+    <hr />
+
+    <!-- tables -->
+    <table border="4">
+        <thead>
+            <!-- table row-->
+            <tr>
+                <!-- table header-->
+                <th><a href="http://127.0.0.1:5500/OCCactivity01/activity01.html" target="_blank">HOME</a></th>
+                <th><a href="#anchor about-me">ABOUT ME</a></th>
+                <th><a href="#anchor skills">SKILLS</a></th>
+                <th><a href="#anchor contact">CONTACT</a></th>
+            </tr>
+        </thead>
+    </table>
+    <hr />
+
+    <main>
+        <h2>Welcome</h2>
+        <p>Here's who i am and what i do.</p>
+
+        <img
+        src="image.2.jpg"
+        alt="Profile"
+        height="180px"
+        width="200px"
+        />
+
+
+        <a id="anchor about-me">
+            <h2>About Me</h2>
+                <p>I used 4-Emoji Food,Pet,Computer,Motorcycle <br />
+                The 1st one is Food because i'm always hungry and i love eating,
+                 The 2nd is Pet because i have one dog his name is chopper and i love to play with him, 
+                The 3rd is computer to use Upskills about tech aand also learn more about Web Development, 
+                and the last one is Motorcycle, i love riding to go somewhere in the different places with the beautiful views.</p>
+        </a>
+        <hr />
+
+        <a id="anchor skills">
+            <h2>Skills</h2>
+                <ol>
+                    <li>Multi Media Arts.</li>
+                    <li>Trouble Shooting </li>
+                        <ul>(Desktop/Laptop/Printer/Internet Conn.)</ul>
+                    <li>Web Development</li>
+                </ol>
+        </a>
+        <hr />
+
+        <a id="anchor contact">
+            <h2>Contact</h2>
+                <ul>
+                    <li>Brgy Barangka Drive Mandaluyong City</li>
+                    <li>edgiedaradar@gmail.com </li>
+                    <li>09476335799</li>
+                </ul>
+        </a>
+        <hr />
+    </main>
+
+    <aside>
+        <form method="post">
+            <h3>Send me a Message</h3>
+            <!-- Usage of for elements: input, textarea, button -->
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required /> <br />
+            <label for="age">Age: </label>
+            <input type="number" id="age" name="age" required /> <br />
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required /> <br />
+            <label for="message">Message: </label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <br />
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+            <br />
+        </form>
+    
+             <!-- Radio buttons and checkboxes provides options for users to make selections -->
+          <input type="checkbox" id="check1" name="check1" value="check1" />
+          <label for="check1">Please send an update</label>
+            <br />
+          <button type="submit">Submit</button>
+    </aside>
+    <br/>
+    <a href="#anchor">Go to Top</a>
+
+    <footer>
+        <p>&copy;2024 OCC. All rights reserved.</p>
+    </footer>
+    
+
+</body>
+</html>
